@@ -50,14 +50,89 @@ nav a{
 }
 .header{
     background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .Hardy{
     width: 584px;
     height: 676px;
     flex-shrink: 0;
 }
+.bannerFirst{
+    font-size: 45px;
+    color: var(--dark-02, #474747);
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.bannerSecond{
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 5px;
+}
+.para{
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 585px;
+}
+main{
+    width: 1140px;
+    margin: 0px auto;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+.aboutTitle{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.description{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+ }
+ .aboutContainer{
+    display: flex;
+    justify-content: space-around;
+ }
+ .aboutInfo{
+    text-align: center;
+ }
+ .infoTitle{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+ }
+ .infoDescription{
+    color: var(--dark-02, #474747);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+ }
