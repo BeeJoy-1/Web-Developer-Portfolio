@@ -120,9 +120,11 @@ main section {
  .aboutContainer{
     display: flex;
     justify-content: space-around;
+
  }
  .aboutInfo{
     text-align: center;
+
  }
  .infoTitle{
     color: var(--dark-03, #757575);
@@ -137,7 +139,8 @@ main section {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 2px;
+
  }
  #littleChange{
     padding: 30px 150px;
@@ -173,4 +176,82 @@ main section {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    }
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.resume-title-institute{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.resume-description{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-top: 20px;
+
+}
+.resume-container hr{
+    background: #D1D1D1;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 60px;
+}
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-title{
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-description{
+    color: var(--dark-02, #474747);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+.footer-column{
+    width: 50%;
+}
+.Contact input[type="text"], input[type="email"] , textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: var(--dark-03, #757575);
+    border: 0px;
+    border-radius: 5px;
+}
+#left{
+    text-align: left;
+}
+.social-links{
+    display: flex;
+    gap: 15px;
+}
